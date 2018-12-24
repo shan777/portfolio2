@@ -1,0 +1,21 @@
+/* your styles go here */
+.rightsRes {
+    /* color: #BBA877 !important; */
+    background: -webkit-linear-gradient(#eee, #BBA877);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-section-bg {
+    z-index: -1;
+    opacity: 0.9;
+    background: url(../img/home.jpg) center center no-repeat; 
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
