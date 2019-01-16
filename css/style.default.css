@@ -83,7 +83,7 @@ section {
 
 .bg-gradient {
   background: -webkit-gradient(linear, top, bottom, from(white), to(#f0e0c8)) !important;
-  background: linear-gradient(to bottom, #f5f5f5, #f5f5f5) !important;
+  background: linear-gradient(to bottom, #fff6f3, #fff6f3) !important;
   color: #29222B;
 }
 
