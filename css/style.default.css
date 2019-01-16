@@ -82,13 +82,12 @@ section {
 }
 
 .bg-gradient {
-  background: -webkit-gradient(linear, top, bottom, from(white), to(#f0e0c8)) !important;
-  background: linear-gradient(to bottom, #f5f5f5, #f5f5f5) !important;
-  color: #29222B;
+  /* background: -webkit-gradient(linear, top, bottom, from(white), to(#f0e0c8)) !important; */
+  background: #f5f5f5 !important;
 }
 
 .bg-gradient * {
-  color: inherit;
+  color: #555;
 }
 
 .bg-gray {
