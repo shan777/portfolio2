@@ -608,7 +608,7 @@ nav.navbar a.nav-link:hover {
 */
 footer.main-footer {
   padding: 5px 0;
-  background: #acf1ee;
+  background: #202133;
 }
 
 footer.main-footer p.social a {
@@ -658,7 +658,7 @@ footer.main-footer p.template-bootstrapious {
 }
 
 footer.main-footer p.template-bootstrapious a {
-  color: #1d1e4a;
+  color: rgb(110, 107, 107);
 }
 
 /*
