@@ -27,7 +27,7 @@
 }
 
 .name {
-    font-size: 6em;
+    font-size: 5em;
     color: white;
     font-weight: bolder;
     text-shadow: 4px 5px 4px black;
@@ -47,7 +47,7 @@
 
 @media (max-width: 991.98px) {
     .name {
-        font-size: 5em;
+        font-size: 4.5em;
     }
 
     .subtext{
