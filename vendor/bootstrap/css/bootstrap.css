@@ -8714,6 +8714,7 @@ button.bg-dark:focus {
 
 .text-left {
   text-align: left !important;
+  padding-left: 10px;
 }
 
 .text-right {

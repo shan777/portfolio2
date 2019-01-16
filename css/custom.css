@@ -8,7 +8,7 @@
 
 .intro-section-bg {
     z-index: -1;
-    opacity: 0.9;
+    opacity: 0.75;
     background: url(../img/home.jpg) center center no-repeat; 
     background-size: cover;
     position: absolute;
@@ -20,7 +20,14 @@
     height: 100%;
 }
 
-.subtext>i{
-    color: #541a42;
-    font-weight: bold;
+.subtext{
+    color: white;
+    text-shadow: 3px 4px 4px black;
+}
+
+.name {
+    font-size: 6em;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 3px 4px 4px black;
 }
