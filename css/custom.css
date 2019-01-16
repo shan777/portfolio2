@@ -1,9 +1,10 @@
 /* your styles go here */
 .rightsRes {
-    /* color: #BBA877 !important; */
-    background: -webkit-linear-gradient(#eee, #BBA877);
+    color: black !important;
+    background: -webkit-linear-gradient(black, black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .intro-section-bg {
@@ -30,4 +31,40 @@
     color: white;
     font-weight: bolder;
     text-shadow: 3px 4px 4px black;
+}
+
+.footer-social {
+    display: block;
+    width: 100%;
+    left: 0;
+    bottom: 7.2rem;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: outside none none;
+}
+
+@media (max-width: 991.98px) {
+    .name {
+        font-size: 5em;
+    }
+
+    .subtext{
+        color: white;
+        text-shadow: 3px 4px 4px black;
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 600px) {
+    .name {
+        font-size: 4em;
+    }
+
+    .subtext{
+        color: white;
+        text-shadow: 3px 4px 4px black;
+        font-size: 1.5em;
+    }
 }
