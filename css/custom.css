@@ -45,6 +45,10 @@
     list-style: outside none none;
 }
 
+.aboutPic {
+    width: 50%;
+}
+
 @media (max-width: 991.98px) {
     .name {
         font-size: 4.5em;
@@ -55,7 +59,12 @@
         text-shadow: 3px 4px 4px black;
         font-size: 2em;
     }
+    
+    .aboutPic {
+        width: 30%;
+    }
 }
+
 
 @media (max-width: 600px) {
     .name {
@@ -66,5 +75,9 @@
         color: white;
         text-shadow: 3px 4px 4px black;
         font-size: 1.5em;
+    }
+
+    .aboutPic {
+        width: 40%;
     }
 }
