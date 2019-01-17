@@ -23,14 +23,15 @@
 
 .subtext{
     color: white;
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 3px 4px 4px #04051e;
 }
 
 .name {
     font-size: 5em;
     color: white;
     font-weight: bolder;
-    text-shadow: 4px 5px 4px black;
+    text-shadow: 6px 5px 4px #070823;
+    padding-bottom: 1.5%;
 }
 
 .footer-social {
@@ -45,6 +46,21 @@
     list-style: outside none none;
 }
 
+.aboutPic {
+    width: 50%;
+}
+
+.projectImg {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.navbarMenu {
+    text-align: right;
+}
+
+
 @media (max-width: 991.98px) {
     .name {
         font-size: 4.5em;
@@ -55,9 +71,18 @@
         text-shadow: 3px 4px 4px black;
         font-size: 2em;
     }
+    
+    .aboutPic {
+        width: 30%;
+    }
+
+    .projectImg {
+        width: 70%;
+    }
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
     .name {
         font-size: 4em;
     }
@@ -66,5 +91,13 @@
         color: white;
         text-shadow: 3px 4px 4px black;
         font-size: 1.5em;
+    }
+
+    .aboutPic {
+        width: 40%;
+    }
+
+    .projectImg {
+        width: 100%;
     }
 }

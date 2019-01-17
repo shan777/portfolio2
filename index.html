@@ -36,7 +36,7 @@
         <div class="container"><a href="#intro" class="navbar-brand scrollTo" style="color:#3b3c5d"><img src="img/sh.png" style="width: 20%">arah Han</a>
           <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
           <div id="navbarcollapse" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav navbarMenu ml-auto">
               <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
               <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
               <li class="nav-item"><a href="#references" class="nav-link link-scroll">Projects</a></li>
@@ -65,7 +65,7 @@
     <section id="about" class="bg-gradient services-section">
       <div class="container">
               <div class="mb-5 text-center">
-                <h2 data-animate="fadeInUp" class="title">About Me</h2>
+                <h2 data-animate="fadeInUp" class="title">About</h2>
                 <p data-animate="fadeInUp" class="lead">a CS degree holder, a former product developer who now is a Web Developer</p>
               </div>
         <!-- <header class="text-center">
@@ -74,7 +74,7 @@
         <div class="row services text-center">
           <div data-animate="fadeInUp" class="col-lg-4">
             <!-- <div class="icon"><i class="fa fa-search"></i></div> -->
-            <img src="img/ucsd.PNG" style="width:50%;">
+            <img class="aboutPic" src="img/ucsd.PNG">
             <h4 class="heading mb-3 text-400">Bachelor of Science in Computer Science</h4>
             <h6>&#9889; &nbsp; Mastered the following:</h6>
 
@@ -88,7 +88,7 @@
           </div>
           <div data-animate="fadeInUp" class="col-lg-4">
             <!-- <div class="icon"><i class="fa fa-html5"></i></div> -->
-            <img src="img/pdeveloper.png" style="width:50%;">
+            <img class="aboutPic" src="img/pdeveloper.png">
             <h4 class="heading mb-3 text-400">10+ Years of<br>Developer Experience</h4>
             <h6>&#9889;&nbsp; Acquired following skills:</h6>
              <p class="text-left description" style="padding-left:40px">
@@ -101,7 +101,7 @@
           </div>
           <div data-animate="fadeInUp" class="col-lg-4">
             <!-- <div class="icon"><i class="fa fa-tachometer"></i></div> -->
-            <img src="img/codecode.PNG" style="width:50%;">
+            <img class="aboutPic" src="img/codecode.PNG">
             <h4 class="heading mb-3 text-400">Full Immersion Web Development Program</h4>
             <h6>&#9889;&nbsp;  Within 12-week course:</h6>
             <p class="text-left description" style="padding-left:40px">
@@ -153,8 +153,8 @@
           <!-- Reference detail-->
           <div id="references-masonry" data-animate="fadeInUp">
             <div class="row">
-                  <div data-category="webdesign" class="reference-item col-lg-4 col-md-6">
-                    <div class="reference"><a href="http://squirrelreceipts.com" target="_blank"><img src="img/portfolio-1.jpg" alt="Squirrel Receipts" class="img-fluid">
+                  <div data-category="webdesign" class="reference-item col-lg-4 col-md-12 col-sm-12">
+                    <div class="reference"><a href="http://squirrelreceipts.com" target="_blank"><img src="img/portfolio-1.jpg" alt="Squirrel Receipts" class="img-fluid projectImg">
                         <div class="overlay">
                           <div class="inner">
                             <h3 class="h4 reference-title">Squirrel Receipts</h3>
@@ -168,8 +168,8 @@
                       </div>
                     </div>
                   </div>
-                  <div data-category="seo" class="reference-item col-lg-4 col-md-6">
-                    <div class="reference"><a href="#"><img src="img/portfolio-2.jpg" alt="" class="img-fluid">
+                  <div data-category="seo" class="reference-item col-lg-4 col-md-12 col-sm-12">
+                    <div class="reference"><a href="#"><img src="img/portfolio-2.jpg" alt="" class="img-fluid projectImg">
                         <div class="overlay">
                           <div class="inner">
                             <h3 class="h4 reference-title">Run Buddy</h3>
@@ -183,8 +183,8 @@
                       </div>
                     </div>
                   </div>
-                  <div data-category="marketing" class="reference-item col-lg-4 col-md-6">
-                    <div class="reference"><a href="#"><img src="img/portfolio-3.jpg" alt="" class="img-fluid">
+                  <div data-category="marketing" class="reference-item col-lg-4 col-md-12 col-sm-12">
+                    <div class="reference"><a href="#"><img src="img/portfolio-3.jpg" alt="" class="img-fluid projectImg">
                         <div class="overlay">
                           <div class="inner">
                             <h3 class="h4 reference-title">Simple Weight Tracking Journal</h3>
@@ -308,7 +308,7 @@
       </div>
     </section>
     <!-- Contact-->
-    <section id="contact" data-animate="bounceIn" class="contact-section contact
+    <section id="contact" class="contact-section contact">
       <div class="container">
         <header class="text-center">
           <h2 class="title">Contact</h2>
@@ -355,13 +355,13 @@
               <li><a href="resume_sarah_han.pdf" title="resume" downloadtarget="_blank"><i class="fa fa-file-pdf-o" style="color:white"></i></a></li>
             </ul>
 
-        <div class="row">
-          <!-- <div class="col-md-6 text-center text-lg-left">
-            <p class="social"><a href="#" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+        <!-- <div class="row">
+          <div class="col-md-6 text-center text-lg-left loc">
+            <br><b>My Location:</b><br>Orange County, CA
           </div> -->
           <!-- /.6-->
           <div class="col-12 mt-4">
-            <p class="rightsRes">© 2018 <b>Sarah Han.</b> All Rights Reserved.</p>
+            <p class="rightsRes">© 2019 <b>Sarah Han.</b> All Rights Reserved.</p>
           </div>
           <div class="col-12 mt-4">
             <p class="template-bootstrapious"><a href="https://www.bootstrapious.com">Bootstrapious</a>
