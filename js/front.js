@@ -26,6 +26,7 @@ $(function () {
             scrollTop: $(anchor.attr('href')).offset().top
         }, 1000);
         e.preventDefault();
+        $('#navbarcollapse').removeClass('show');
     });
 
 
