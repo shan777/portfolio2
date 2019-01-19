@@ -60,6 +60,11 @@
     text-align: right;
 }
 
+.projTitle {
+    font-size: 1.7rem;
+    border-bottom: 0.5px solid silver;
+    text-transform: uppercase;
+}
 
 @media (max-width: 991.98px) {
     .name {
