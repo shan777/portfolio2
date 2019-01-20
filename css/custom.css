@@ -64,19 +64,31 @@
     font-size: 1.7rem;
     border-bottom: 0.5px solid silver;
     text-transform: uppercase;
+    margin-top: 3%;
 }
 
 .services-section p.description1 {
     padding-left: 10%;
 }
 
-.description1 {
+.services-section p.description2 {
     padding-left: 16%;
 }
 
-.description1 {
+.services-section p.description3 {
     padding-left: 16%;
 }
+
+.oneSquare {
+    background-color: rgba(255, 255, 255, 0.823); 
+    width: 90%;
+    padding: 7px;
+    height: 100%;
+    flex: 0 0 30% !important;
+    max-width: 30% !important;
+    margin: auto;    
+}
+
 
 
 @media (max-width: 991.98px) {
@@ -96,6 +108,27 @@
 
     .projectImg {
         width: 70%;
+    }
+
+    .oneSquare {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        margin: auto;   
+        height: 90%;
+        margin: 1%;
+        padding: 2%; 
+    }
+
+    .services-section p.description1 {
+        padding-left: 29%;
+    }
+    
+    .services-section p.description2 {
+        padding-left: 33%;
+    }
+    
+    .services-section p.description3 {
+        padding-left: 33%;
     }
 }
 
@@ -117,5 +150,25 @@
 
     .projectImg {
         width: 100%;
+    }
+
+    .oneSquare {
+        flex: 0 0 90% !important;
+        max-width: 90% !important;
+        margin: 2% auto;   
+        height: 90%;
+        padding: 2%; 
+    }
+
+    .services-section p.description1 {
+        padding-left: 20%;
+    }
+    
+    .services-section p.description2 {
+        padding-left: 25%;
+    }
+    
+    .services-section p.description3 {
+        padding-left: 24%;
     }
 }
