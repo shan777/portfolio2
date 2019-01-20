@@ -275,6 +275,7 @@ nav.navbar a.nav-link:hover {
 .services-section p.description {
   font-size: 0.9rem;
   line-height: 1.6;
+  
 }
 
 /*
@@ -703,8 +704,8 @@ STYLE SWITCHER FOR DEMO
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
   margin-right: 1rem;
   font-size: 1.25rem;
 }
