@@ -72,11 +72,11 @@
 }
 
 .services-section p.description2 {
-    padding-left: 16%;
+    padding-left: 14%;
 }
 
 .services-section p.description3 {
-    padding-left: 16%;
+    padding-left: 14%;
 }
 
 .oneSquare {
@@ -90,6 +90,36 @@
 }
 
 
+@media (max-width: 1199.99px) {
+    .projectImg {
+        width: 100%;
+    }
+
+    .aboutPic {
+        width: 50%;
+    }
+
+    .oneSquare {
+        flex: 0 0 32% !important;
+        max-width: 32% !important;
+        margin: auto;   
+        height: 99%;
+        margin: 0.5%;
+        padding-top: 3%; 
+    }
+
+    .services-section p.description1 {
+        padding-left: 0%;
+    }
+    
+    .services-section p.description2 {
+        padding-left: 5%;
+    }
+    
+    .services-section p.description3 {
+        padding-left: 4%;
+    }
+}
 
 @media (max-width: 991.98px) {
     .name {
@@ -98,7 +128,7 @@
 
     .subtext{
         color: white;
-        text-shadow: 3px 4px 4px black;
+        text-shadow: 2px 3px 2px black;
         font-size: 2em;
     }
     
@@ -110,21 +140,26 @@
         width: 70%;
     }
 
+    .reference .overlay {
+        left: 7.5% !important;
+        width: 85%;
+    }
+
     .oneSquare {
         flex: 0 0 100% !important;
         max-width: 100% !important;
         margin: auto;   
         height: 90%;
         margin: 1%;
-        padding: 2%; 
+        padding-top: 3%; 
     }
 
     .services-section p.description1 {
-        padding-left: 29%;
+        padding-left: 30%;
     }
     
     .services-section p.description2 {
-        padding-left: 33%;
+        padding-left: 32.8%;
     }
     
     .services-section p.description3 {
@@ -140,7 +175,7 @@
 
     .subtext{
         color: white;
-        text-shadow: 3px 4px 4px black;
+        text-shadow: 2px 3px 2px black;
         font-size: 1.5em;
     }
 
@@ -152,12 +187,17 @@
         width: 100%;
     }
 
+    .reference .overlay {
+        left: 0 !important;
+        width: 100%;
+    }
+
     .oneSquare {
         flex: 0 0 90% !important;
         max-width: 90% !important;
         margin: 2% auto;   
         height: 90%;
-        padding: 2%; 
+        padding-top: 3%; 
     }
 
     .services-section p.description1 {
