@@ -66,6 +66,19 @@
     text-transform: uppercase;
 }
 
+.services-section p.description1 {
+    padding-left: 10%;
+}
+
+.description1 {
+    padding-left: 16%;
+}
+
+.description1 {
+    padding-left: 16%;
+}
+
+
 @media (max-width: 991.98px) {
     .name {
         font-size: 4.5em;
