@@ -1,0 +1,218 @@
+/* your styles go here */
+.rightsRes {
+    color: whitesmoke !important;
+    background: -webkit-linear-gradient(whitesmoke, whitesmoke);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.intro-section-bg {
+    z-index: -1;
+    opacity: 0.77;
+    background: url(../img/home.jpg) center center no-repeat; 
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.subtext{
+    color: white;
+    text-shadow: 3px 4px 4px #04051e;
+}
+
+.name {
+    font-size: 5em;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 6px 5px 4px #070823;
+    padding-bottom: 1.5%;
+}
+
+.footer-social {
+    display: block;
+    width: 100%;
+    left: 0;
+    bottom: 7.2rem;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: outside none none;
+}
+
+.aboutPic {
+    width: 50%;
+}
+
+.projectImg {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+
+.navbarMenu {
+    text-align: right;
+}
+
+.projTitle {
+    font-size: 1.7rem;
+    border-bottom: 0.5px solid silver;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+
+.services-section p.description1 {
+    padding-left: 10%;
+}
+
+.services-section p.description2 {
+    padding-left: 14%;
+}
+
+.services-section p.description3 {
+    padding-left: 14%;
+}
+
+.oneSquare {
+    background-color: rgba(255, 255, 255, 0.823); 
+    width: 90%;
+    padding: 7px;
+    height: 100%;
+    flex: 0 0 30% !important;
+    max-width: 30% !important;
+    margin: auto;    
+}
+
+
+@media (max-width: 1199.99px) {
+    .projectImg {
+        width: 100%;
+    }
+
+    .aboutPic {
+        width: 50%;
+    }
+
+    .oneSquare {
+        flex: 0 0 32% !important;
+        max-width: 32% !important;
+        margin: auto;   
+        height: 99%;
+        margin: 0.5%;
+        padding-top: 3%; 
+    }
+
+    .services-section p.description1 {
+        padding-left: 0%;
+    }
+    
+    .services-section p.description2 {
+        padding-left: 5%;
+    }
+    
+    .services-section p.description3 {
+        padding-left: 8%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .name {
+        font-size: 4.5em;
+    }
+
+    .subtext{
+        color: white;
+        text-shadow: 2px 3px 2px black;
+        font-size: 2em;
+    }
+    
+    .aboutPic {
+        width: 30%;
+    }
+
+    .projectImg {
+        width: 70%;
+    }
+
+    .reference .overlay {
+        left: 7.5% !important;
+        width: 85%;
+    }
+
+    .oneSquare {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        margin: auto;   
+        height: 90%;
+        margin: 1%;
+        padding-top: 3%; 
+        background-color: inherit;
+        border-bottom: 0.5px solid silver;
+    }
+
+    .services-section p.description1 {
+        padding-left: 30%;
+    }
+    
+    .services-section p.description2 {
+        padding-left: 32.8%;
+    }
+    
+    .services-section p.description3 {
+        padding-left: 33%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 4em;
+    }
+
+    .subtext{
+        color: white;
+        text-shadow: 2px 3px 2px black;
+        font-size: 1.5em;
+    }
+
+    .aboutPic {
+        width: 40%;
+    }
+
+    .projectImg {
+        width: 100%;
+    }
+
+    .reference .overlay {
+        left: 0 !important;
+        width: 100%;
+    }
+
+    .oneSquare {
+        flex: 0 0 90% !important;
+        max-width: 90% !important;
+        margin: 2% auto;   
+        height: 90%;
+        padding-top: 3%; 
+        background-color: inherit;
+        border-bottom: 0.5px solid silver;
+    }
+
+    .services-section p.description1 {
+        padding-left: 20%;
+    }
+    
+    .services-section p.description2 {
+        padding-left: 25%;
+    }
+    
+    .services-section p.description3 {
+        padding-left: 24%;
+    }
+}
