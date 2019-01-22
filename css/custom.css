@@ -117,7 +117,7 @@
     }
     
     .services-section p.description3 {
-        padding-left: 4%;
+        padding-left: 8%;
     }
 }
 
@@ -152,6 +152,8 @@
         height: 90%;
         margin: 1%;
         padding-top: 3%; 
+        background-color: inherit;
+        border-bottom: 0.5px solid silver;
     }
 
     .services-section p.description1 {
@@ -198,6 +200,8 @@
         margin: 2% auto;   
         height: 90%;
         padding-top: 3%; 
+        background-color: inherit;
+        border-bottom: 0.5px solid silver;
     }
 
     .services-section p.description1 {
