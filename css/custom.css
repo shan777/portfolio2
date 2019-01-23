@@ -11,7 +11,7 @@
     z-index: -1;
     /* opacity: 0.97; */
     background: linear-gradient(rgba(243, 239, 239, 0.095), 
-    rgba(203, 199, 199, 0.544)), url(../img/home.jpg) center center no-repeat; 
+    rgba(216, 215, 215, 0.544)), url(../img/home.jpg) center center no-repeat; 
     background-size: cover;
     position: absolute;
     top: 0;
@@ -173,7 +173,7 @@
 
 @media (max-width: 768px) {
     .name {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     .subtext{
