@@ -10,8 +10,9 @@
 .intro-section-bg {
     z-index: -1;
     /* opacity: 0.97; */
-    background: linear-gradient(rgba(243, 239, 239, 0.095), 
-    rgba(216, 215, 215, 0.544)), url(../img/home.jpg) center center no-repeat; 
+    /* background: linear-gradient(rgba(243, 239, 239, 0.095), 
+    rgba(216, 215, 215, 0.544)), url(../img/home.jpg) center center no-repeat;  */
+    background: url(../img/home.jpg) center center no-repeat;
     background-size: cover;
     position: absolute;
     top: 0;
