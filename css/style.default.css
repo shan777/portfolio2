@@ -746,8 +746,9 @@ STYLE SWITCHER FOR DEMO
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
+  /* color: rgba(0, 0, 0, 0.5); */
   border-color: rgba(0, 0, 0, 0.1);
+  color: red;
 }
 
 .navbar-light .navbar-toggler-icon {
