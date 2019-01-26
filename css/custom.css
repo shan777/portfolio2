@@ -1,4 +1,8 @@
 /* your styles go here */
+.xcolor {
+    color: purple;
+}
+
 .rightsRes {
     color: whitesmoke !important;
     background: -webkit-linear-gradient(whitesmoke, whitesmoke);
@@ -10,9 +14,9 @@
 .intro-section-bg {
     z-index: -1;
     opacity: 0.797;
-    background: linear-gradient(rgba(0, 0, 0, 0.505), 
-    rgba(0, 0, 0, 0.505)), url(../img/home.jpg) center center no-repeat; 
-    /* background: url(../img/home.jpg) center center no-repeat; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.505), 
+    rgba(0, 0, 0, 0.505)), url(../img/home.jpg) center center no-repeat;  */
+    background: url(../img/home.jpg) center center no-repeat;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -29,10 +33,10 @@
 } */
 
 .subtext{
-    color: rgb(8, 45, 64);
-    text-shadow: -1px 0 black, 0 1px white, 1px 0 white, 0 2px white;
+    color: #202133;
+    text-shadow: -1px 0 black, 0 1px #202133, 1px 0 #202133, 0 2px #202133;
     font-family: 'Marmelad', sans-serif;
-    font-size: 2.7rem;
+    font-size: 2.9rem;
 }
 
 .name {
@@ -142,9 +146,7 @@
     }
 
     .subtext{
-        color: white;
-        text-shadow: 2px 3px 2px black;
-        font-size: 2em;
+        font-size: 2.25em;
     }
     
     .aboutPic {
@@ -191,9 +193,7 @@
     }
 
     .subtext{
-        color: white;
-        text-shadow: 2px 3px 2px black;
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
 
     .aboutPic {

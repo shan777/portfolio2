@@ -121,10 +121,13 @@ section {
 nav.navbar {
   padding-top: 0;
   padding-bottom: 0;
-  /* background: #fff; */
   border-bottom: 1px solid #e6e6e6;
-  background-color: #363637;
+  background-color: #ffffff;
   line-height: 0;
+}
+
+nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
+  color: rgb(8, 45, 64);
 }
 
 @media (max-width: 991.98px) {
@@ -145,8 +148,6 @@ nav.navbar a.nav-link {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin: 0 5px;
-  /* color: #3b3c5d; */
-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
   border-top: 4px solid transparent;
@@ -166,24 +167,17 @@ color: white;
 
 nav.navbar a.nav-link.active {
   /* color: #333; */
-  border-top-color: #fa5685;
-  color: white;
+  border-top-color: turquoise;
   font-weight: 1000;
   font-size: 1.1rem;
 }
 
 
 nav.navbar a.nav-link:hover {
-  color: #3b3c5d;
   font-weight: 500;
-  border-top-color: #fcc1d2;
+  border-top-color: #e6b0dc;
 }
 
-@media (max-width: 1199.98px) {
-  nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
-    color: #3b3c5d;
-  }
-}
 
 /*
 *
@@ -558,13 +552,14 @@ nav.navbar a.nav-link:hover {
   height: 50px;
   margin-bottom: 20px;
   font-size: 3rem;
-  opacity: 0.3;
+  opacity: 0.5;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 #detail .close:hover {
-  opacity: 1;
+  opacity: 0.8;
+  color: purple;
 }
 
 #detail-slider {
@@ -614,7 +609,7 @@ nav.navbar a.nav-link:hover {
 */
 footer.main-footer {
   padding: 5px 0;
-  background: #363637;
+  background: #202133;
 }
 
 footer.main-footer p.social a {
@@ -1142,14 +1137,14 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-primary {
-  color: #fff;
+  color: white;
   background-color: #3b3c5d;
   background-image: none;
   border-color: #3b3c5d;
 }
 
 .btn-outline-primary:hover {
-  color: #3b3c5d;
+  color: rgb(8, 45, 64);
   background-color: transparent;
   border-color: #3b3c5d;
 }
@@ -1394,16 +1389,15 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-dark:hover {
-  color: #343a40;
+  color: #3b3c5d;
   background-color: transparent;
-  border: 1px solid #343a40;
+  border: 1px solid #3b3c5d;
 }
 
 .btn-outline-dark {
   color: #fff;
   background-color: #3b3c5d;
   background-image: none;
-  border-color: #3b3c5d;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
