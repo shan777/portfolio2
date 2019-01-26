@@ -10,9 +10,9 @@
 .intro-section-bg {
     z-index: -1;
     opacity: 0.797;
-    /* background: linear-gradient(rgba(243, 239, 239, 0.095), 
-    rgba(216, 215, 215, 0.544)), url(../img/home.jpg) center center no-repeat;  */
-    background: url(../img/home.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.505), 
+    rgba(0, 0, 0, 0.505)), url(../img/home.jpg) center center no-repeat; 
+    /* background: url(../img/home.jpg) center center no-repeat; */
     background-size: cover;
     position: absolute;
     top: 0;
@@ -29,21 +29,20 @@
 } */
 
 .subtext{
-    color: black;
-    text-shadow: 3px 2px 4px white;
-    /* text-shadow: 3px 2px 4px #04051e; */
-    font-family: 'PT Serif', serif; 
-    font-size: 2.2rem;
+    color: rgb(8, 45, 64);
+    text-shadow: -1px 0 black, 0 1px white, 1px 0 white, 0 2px white;
+    font-family: 'Marmelad', sans-serif;
+    font-size: 2.7rem;
 }
 
 .name {
     font-size: 5rem;
     color: white;
     font-weight: bolder;
-    text-shadow: 6px 5px 4px #2a2d2e;
+    text-shadow: 1px 1px 2px black, 0 0 25px turquoise, 0 0 5px darkblue;
     padding-bottom: 1.5%;
-    /* font-family: 'Lobster', cursive; */
-    font-family: 'Libre Barcode 128 Text', cursive;
+    font-family: 'Marmelad', sans-serif;
+    /* font-family: 'Libre Barcode 128 Text', cursive; */
 }
 
 .footer-social {
