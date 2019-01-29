@@ -38,30 +38,30 @@
     text-align: center;
 }
 
+.name {
+    position: absolute !important;
+    text-align: center;   
+    left: 0;
+    right: 0;
+    top: 400px;
+    font-size: 7rem; 
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 5%;
+    font-family: 'Lobster Two', cursive;
+}
+
 .subtext{
     text-shadow: -3px 0 #252b38, 0 4px #252b38, 3px 0 #252b38, 0 4px #252b38;
     color: #c4a14d;
     font-family: 'Marmelad', sans-serif;
     font-size: 3.5rem;
-    position: absolute;
-    top: 62%;
+    position: absolute !important;
+    top: 700px;
     text-align: center;   
     left: 0;
     right: 0;
     transform: translate(-50%, -50%);
-}
-
-.name {
-    position: absolute;
-    text-align: center;   
-    left: 0;
-    right: 0;
-    top: 41%;
-    font-size: 7rem; 
-    color: white;
-    font-weight: bolder;
-     padding-bottom: 1.5%;
-    font-family: 'Lobster Two', cursive;
 }
 
 .footer-social {
@@ -128,7 +128,7 @@
     .name {
         font-size: 7.5rem;
         position: absolute;
-        top: 39%;
+        top: 340px;
         text-align: center;   
         left: 0;
         right: 0;
@@ -137,7 +137,7 @@
     .subtext {
         font-size: 2.9rem;
         position: absolute;
-        top: 60%;
+        top: 550px;
         text-align: center;   
         left: 0;
         right: 0;
@@ -177,7 +177,7 @@
     .name {
         font-size: 5.9rem;
         position: absolute;
-        top: 33%;
+        top: 220px;
         text-align: center;   
         left: 0;
         right: 0;
@@ -186,7 +186,7 @@
     .subtext{
         font-size: 2.4rem;
         position: absolute;
-        top: 55%;
+        top: 410px;
         text-align: center;   
         left: 0;
         right: 0;
@@ -242,7 +242,7 @@
     .name {
         font-size: 3.7em;
         position: absolute;
-        top: 33%;
+        top: 210px;
         text-align: center;   
         left: 0;
         right: 0;
@@ -251,7 +251,7 @@
     .subtext{
         font-size: 2rem;
         position: absolute;
-        top: 48%;
+        top: 310px;
         text-align: center;   
         left: 0;
         right: 0;
