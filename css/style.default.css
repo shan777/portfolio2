@@ -122,12 +122,12 @@ nav.navbar {
   padding-top: 0;
   padding-bottom: 0;
   border-bottom: 1px solid #e6e6e6;
-  background-color: #ffffff;
+  background-color: #252b38;
   line-height: 0;
 }
 
 nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
-  color: rgb(8, 45, 64);
+  color: white;
 }
 
 @media (max-width: 991.98px) {
@@ -167,7 +167,7 @@ nav.navbar a.nav-link {
 
 nav.navbar a.nav-link.active {
   /* color: #333; */
-  border-top-color: turquoise;
+  border-top-color: #f7484e;
   font-weight: 1000;
   font-size: 1.1rem;
 }
@@ -175,7 +175,7 @@ nav.navbar a.nav-link.active {
 
 nav.navbar a.nav-link:hover {
   font-weight: 500;
-  border-top-color: #e6b0dc;
+  border-top-color: #f5a7a7;
 }
 
 
@@ -187,6 +187,7 @@ nav.navbar a.nav-link:hover {
 *
 */
 .intro-section {
+  min-height: 100vh;
   padding-top: 150px;
   color: white;
   text-shadow: 3px 2px 16px black;
@@ -609,7 +610,7 @@ nav.navbar a.nav-link:hover {
 */
 footer.main-footer {
   padding: 5px 0;
-  background: #202133;
+  background: #252b38;
 }
 
 footer.main-footer p.social a {
@@ -1138,15 +1139,15 @@ STYLE SWITCHER FOR DEMO
 
 .btn-outline-primary {
   color: white;
-  background-color: #3b3c5d;
+  background-color: #f7484e;
   background-image: none;
-  border-color: #3b3c5d;
+  border: 0.5px solid #f7484e;
 }
 
 .btn-outline-primary:hover {
-  color: rgb(8, 45, 64);
-  background-color: transparent;
-  border-color: #3b3c5d;
+  color: white;
+  background-color: #252b38;
+  border-color: #252b38;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -1389,15 +1390,16 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-dark:hover {
-  color: #3b3c5d;
-  background-color: transparent;
-  border: 1px solid #3b3c5d;
+  color: white;
+  background-color: #252b38;
+  border-color: #252b38;
 }
 
 .btn-outline-dark {
   color: #fff;
-  background-color: #3b3c5d;
+  background-color: #f7484e;
   background-image: none;
+  border: 0.5px solid #f7484e;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
@@ -1454,12 +1456,12 @@ body {
 }
 
 a {
-  color: #2B2B2B;
+  color: white;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #348e7b;
+  color: white;
   text-decoration: underline;
 }
 
