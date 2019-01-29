@@ -1139,15 +1139,15 @@ STYLE SWITCHER FOR DEMO
 
 .btn-outline-primary {
   color: white;
-  background-color: #3b3c5d;
+  background-color: #f7484e;
   background-image: none;
-  border-color: #3b3c5d;
+  border: 0.5px solid #f7484e;
 }
 
 .btn-outline-primary:hover {
-  color: rgb(8, 45, 64);
-  background-color: transparent;
-  border-color: #3b3c5d;
+  color: white;
+  background-color: #252b38;
+  border-color: #252b38;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -1390,15 +1390,16 @@ STYLE SWITCHER FOR DEMO
 }
 
 .btn-outline-dark:hover {
-  color: #3b3c5d;
-  background-color: transparent;
-  border: 1px solid #3b3c5d;
+  color: white;
+  background-color: #252b38;
+  border-color: #252b38;
 }
 
 .btn-outline-dark {
   color: #fff;
-  background-color: #3b3c5d;
+  background-color: #f7484e;
   background-image: none;
+  border: 0.5px solid #f7484e;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
