@@ -214,6 +214,18 @@ nav.navbar a.nav-link:hover {
   }
 }
 
+@media (max-width: 991px) {
+  .intro-section {
+    min-height: 80vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    min-height: 70vh;
+  }
+}
+
 /*
 *
 * =====================
