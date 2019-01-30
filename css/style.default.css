@@ -222,12 +222,18 @@ nav.navbar a.nav-link:hover {
 
 @media (max-width: 768px) {
   .intro-section {
-    min-height: 70vh;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-section {
+    min-height: 75vh;
   }
 }
 
 /*
-*
+*8
 * =====================
 * ABOUT
 * =====================

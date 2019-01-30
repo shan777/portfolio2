@@ -36,6 +36,7 @@
 .imageContainer {
     position: relative;
     text-align: center;
+    width: 30%;
 }
 
 .name {
@@ -43,8 +44,8 @@
     text-align: center;   
     left: 0;
     right: 0;
-    top: 400px;
-    font-size: 7rem; 
+    top: 250px;
+    font-size: 6rem; 
     color: white;
     font-weight: bolder;
     padding-bottom: 5%;
@@ -55,9 +56,9 @@
     text-shadow: -3px 0 #252b38, 0 4px #252b38, 3px 0 #252b38, 0 4px #252b38;
     color: #c4a14d;
     font-family: 'Marmelad', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     position: absolute !important;
-    top: 700px;
+    top: 400px;
     text-align: center;   
     left: 0;
     right: 0;
@@ -126,9 +127,9 @@
 
 @media (max-width: 1199.99px) {
     .name {
-        font-size: 7.5rem;
+        font-size: 6rem;
         position: absolute;
-        top: 340px;
+        top: 210px;
         text-align: center;   
         left: 0;
         right: 0;
@@ -137,7 +138,7 @@
     .subtext {
         font-size: 2.9rem;
         position: absolute;
-        top: 550px;
+        top: 370px;
         text-align: center;   
         left: 0;
         right: 0;
@@ -170,6 +171,10 @@
     
     .services-section p.description3 {
         padding-left: 8%;
+    }
+
+    .imageContainer {
+        width: 36%;
     }
 }
 
@@ -314,7 +319,7 @@
     .subtext{
         font-size: 1.5rem;
         position: absolute;
-        top: 260px;
+        top: 270px;
         text-align: center;   
         left: 0;
         right: 0;
