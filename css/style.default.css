@@ -122,12 +122,12 @@ nav.navbar {
   padding-top: 0;
   padding-bottom: 0;
   border-bottom: 1px solid #e6e6e6;
-  background-color: #252b38;
+  background-color: white;
   line-height: 0;
 }
 
 nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
-  color: white;
+  color: #252b38;
 }
 
 @media (max-width: 991.98px) {
@@ -1474,7 +1474,7 @@ body {
 }
 
 a {
-  color: white;
+  color: #252b38;
   text-decoration: none;
 }
 
