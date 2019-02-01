@@ -13,11 +13,12 @@
 
 .intro-section-bg {
     z-index: -1;
-    opacity: 1;
+    opacity: 0.95;
     /* background: linear-gradient(rgba(0, 0, 0, 0.505), 
     rgba(0, 0, 0, 0.505)), url(../img/home.jpg) center center no-repeat;  */
-    /* background: url(../img/home.jpg) top center no-repeat; */
-    background-color: #252b38;
+    background: url(../img/home.jpg) top center no-repeat;
+    /* background-color: #252b38; */
+    background-color: #f1e2d6;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -26,6 +27,8 @@
     right: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    /* transform: rotate(90deg); */
 }
 
 /* .introText {
@@ -35,7 +38,8 @@
 
 .imageContainer {
     position: relative;
-    text-align: center;
+    /* text-align: center; */
+    width: 30%;
 }
 
 .name {
@@ -43,25 +47,42 @@
     text-align: center;   
     left: 0;
     right: 0;
-    top: 400px;
-    font-size: 7rem; 
+    top: 25%;
+    font-size: 6.2rem; 
     color: white;
     font-weight: bolder;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
     font-family: 'Lobster Two', cursive;
+    /* background-color: rgb(204, 231, 241);
+    opacity: 0.9; */
 }
 
-.subtext{
-    text-shadow: -3px 0 #252b38, 0 4px #252b38, 3px 0 #252b38, 0 4px #252b38;
-    color: #c4a14d;
-    font-family: 'Marmelad', sans-serif;
-    font-size: 3.5rem;
+.subtext {
+    text-shadow: 2px 0 white, 0 2px white, 3px 0 white, 0 3px white;
+    /* text-shadow: 3px 1px 2px silver; */
+    /* color: #c4a14d; */
+    color: #f7484e;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.2rem;
     position: absolute !important;
-    top: 700px;
+    top: 48%;
     text-align: center;   
-    left: 0;
+    left: 0; 
     right: 0;
     transform: translate(-50%, -50%);
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.subsubtext {
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* text-shadow: 2px 0 black, 0 1px slategrey, 1px 0 black, 0 1px slategray; */
+    padding-top: 29%;
+    padding-left: 35%;
+    font-family: 'PT serif';
 }
 
 .footer-social {
@@ -124,23 +145,30 @@
 }
 
 
+
+
 @media (max-width: 1199.99px) {
     .name {
-        font-size: 7.5rem;
+        font-size: 6rem;
         position: absolute;
-        top: 340px;
+        top: 25%;
         text-align: center;   
-        left: 0;
+        left: 10%;
         right: 0;
     }
 
     .subtext {
         font-size: 2.9rem;
         position: absolute;
-        top: 550px;
+        top: 49%;
         text-align: center;   
-        left: 0;
+        left: 13%;
         right: 0;
+    }
+
+    .subsubtext {
+        font-size: 1.3rem;
+        padding-top: 21%;
     }
 
     .projectImg {
@@ -171,27 +199,35 @@
     .services-section p.description3 {
         padding-left: 8%;
     }
+
+    .imageContainer {
+        width: 36%;
+    }
 }
 
 @media (max-width: 991.98px) {
     .name {
-        font-size: 5.9rem;
+        font-size: 5.2rem;
         position: absolute;
-        top: 220px;
+        top: 25%;
         text-align: center;   
-        left: 0;
+        left: 20%;
         right: 0;
     }
 
     .subtext{
         font-size: 2.4rem;
         position: absolute;
-        top: 410px;
+        top: 49%;
         text-align: center;   
-        left: 0;
+        left: 20%;
         right: 0;
-}
-    
+    }
+        
+    .subsubtext {
+        font-size: 1.0rem;
+        padding-top: 37%;
+    }
     .aboutPic {
         width: 30%;
     }
@@ -232,9 +268,9 @@
         width: 60%;
     }
 
-    .fa {
+    /* .fa {
         color: white;
-    }
+    } */
 }
 
 
@@ -242,19 +278,24 @@
     .name {
         font-size: 3.7em;
         position: absolute;
-        top: 210px;
+        top: 25%;
         text-align: center;   
         left: 0;
         right: 0;
     }
 
-    .subtext{
+    .subtext {
         font-size: 2rem;
         position: absolute;
-        top: 310px;
+        top: 50%;
         text-align: center;   
-        left: 0;
+        left: 30%;
         right: 0;
+    }
+
+    .subsubtext {
+        padding-top: 40%;
+        padding-left: 43%;
     }
 
     .aboutPic {
@@ -295,29 +336,34 @@
     .imageContainer {
         width: 60%;
     }
-
+/* 
     .fa {
         color: white;
-    }
+    } */
 }
 
 @media (max-width: 480px) {
     .name {
-        font-size: 3.7em;
+        font-size: 3.6em;
         position: absolute;
-        top: 167px;
+        top: 30%;
+        text-align: center;   
+        left: 3%;
+        right: 0;
+    }
+
+    .subtext{
+        font-size: 1.7rem;
+        position: absolute;
+        top: 50%;
         text-align: center;   
         left: 0;
         right: 0;
     }
 
-    .subtext{
-        font-size: 1.5rem;
-        position: absolute;
-        top: 260px;
-        text-align: center;   
-        left: 0;
-        right: 0;
+    .subsubtext {
+        padding-top: 62%;
+        padding-left: 28%;
     }
 
     .aboutPic {
@@ -359,7 +405,7 @@
         width: 60%;
     }
 
-    .fa {
+    /* .fa {
         color: white;
-    }
+    } */
 }
