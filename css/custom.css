@@ -47,7 +47,7 @@
     text-align: center;   
     left: 0;
     right: 0;
-    top: 200px;
+    top: 25%;
     font-size: 6.2rem; 
     color: white;
     font-weight: bolder;
@@ -58,14 +58,14 @@
 }
 
 .subtext {
-    text-shadow: 2px 0 white, 0 1px #c3dffa, 1px 0 white, 0 1px #c3dffa;
+    text-shadow: 2px 0 white, 0 2px white, 3px 0 white, 0 3px white;
     /* text-shadow: 3px 1px 2px silver; */
     /* color: #c4a14d; */
     color: #f7484e;
-    font-family: 'Marmelad', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 3.2rem;
     position: absolute !important;
-    top: 420px;
+    top: 48%;
     text-align: center;   
     left: 0; 
     right: 0;
@@ -75,12 +75,12 @@
 }
 
 .subsubtext {
-    color: rgb(250, 240, 240);
+    color: white;
     text-align: left;
     font-weight: bold;
     font-size: 1.5rem;
     /* text-shadow: 2px 0 black, 0 1px slategrey, 1px 0 black, 0 1px slategray; */
-    padding-top: 200px;
+    padding-top: 29%;
     padding-left: 35%;
     font-family: 'PT serif';
 }
@@ -145,42 +145,30 @@
 }
 
 
-.glow {
-    color: white;
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-}
-  
-  @-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 2px #f7484e, 0 0 5px white, 0 0 10px #f7484e, 0 0 20px white, 0 0 25px #f7484e, 0 0 20px white, 0 0 25px #f7484e;
-      }
-      
-      to {
-        text-shadow: 0 0 10px #fff, 0 0 15px #f7484e, 0 0 20px white, 0 0 25px #f7484e, 0 0 30px white, 0 0 35px #f7484e, 0 0 40px white;
-      }
-}
 
 
 @media (max-width: 1199.99px) {
     .name {
         font-size: 6rem;
         position: absolute;
-        top: 210px;
+        top: 25%;
         text-align: center;   
-        left: 0;
+        left: 10%;
         right: 0;
     }
 
     .subtext {
         font-size: 2.9rem;
         position: absolute;
-        top: 370px;
+        top: 49%;
         text-align: center;   
-        left: 0;
+        left: 13%;
         right: 0;
+    }
+
+    .subsubtext {
+        font-size: 1.3rem;
+        padding-top: 21%;
     }
 
     .projectImg {
@@ -219,23 +207,27 @@
 
 @media (max-width: 991.98px) {
     .name {
-        font-size: 5.9rem;
+        font-size: 5.2rem;
         position: absolute;
-        top: 220px;
+        top: 25%;
         text-align: center;   
-        left: 0;
+        left: 20%;
         right: 0;
     }
 
     .subtext{
         font-size: 2.4rem;
         position: absolute;
-        top: 410px;
+        top: 49%;
         text-align: center;   
-        left: 0;
+        left: 20%;
         right: 0;
-}
-    
+    }
+        
+    .subsubtext {
+        font-size: 1.0rem;
+        padding-top: 37%;
+    }
     .aboutPic {
         width: 30%;
     }
@@ -286,19 +278,24 @@
     .name {
         font-size: 3.7em;
         position: absolute;
-        top: 210px;
+        top: 25%;
         text-align: center;   
         left: 0;
         right: 0;
     }
 
-    .subtext{
+    .subtext {
         font-size: 2rem;
         position: absolute;
-        top: 310px;
+        top: 50%;
         text-align: center;   
-        left: 0;
+        left: 30%;
         right: 0;
+    }
+
+    .subsubtext {
+        padding-top: 40%;
+        padding-left: 43%;
     }
 
     .aboutPic {
@@ -347,21 +344,26 @@
 
 @media (max-width: 480px) {
     .name {
-        font-size: 3.7em;
+        font-size: 3.6em;
         position: absolute;
-        top: 167px;
+        top: 30%;
+        text-align: center;   
+        left: 3%;
+        right: 0;
+    }
+
+    .subtext{
+        font-size: 1.7rem;
+        position: absolute;
+        top: 50%;
         text-align: center;   
         left: 0;
         right: 0;
     }
 
-    .subtext{
-        font-size: 1.5rem;
-        position: absolute;
-        top: 270px;
-        text-align: center;   
-        left: 0;
-        right: 0;
+    .subsubtext {
+        padding-top: 62%;
+        padding-left: 28%;
     }
 
     .aboutPic {
