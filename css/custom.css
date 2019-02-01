@@ -13,7 +13,7 @@
 
 .intro-section-bg {
     z-index: -1;
-    opacity: 0.75;
+    opacity: 0.95;
     /* background: linear-gradient(rgba(0, 0, 0, 0.505), 
     rgba(0, 0, 0, 0.505)), url(../img/home.jpg) center center no-repeat;  */
     background: url(../img/home.jpg) top center no-repeat;
