@@ -1,14 +1,15 @@
 /* your styles go here */
 .xcolor {
-    color: purple;
+    color: #0ab1f8;
 }
 
 .rightsRes {
-    color: #2d88a5 !important;
-    background: -webkit-linear-gradient(#2d88a5, #4dafd0);
+    color: #55adcb !important;
+    background: -webkit-linear-gradient(#55adcb, #4dafd0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    padding-bottom: 2%;
 }
 
 .intro-section-bg {
