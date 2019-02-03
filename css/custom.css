@@ -79,8 +79,7 @@
     text-align: left;
     font-weight: bold;
     font-size: 1.5rem;
-    /* text-shadow: 2px 0 black, 0 1px slategrey, 1px 0 black, 0 1px slategray; */
-    padding-top: 29%;
+    text-shadow: 3px 2px 7px black, 0 1px black, 0 2px black;    padding-top: 29%;
     padding-left: 35%;
     font-family: 'PT serif';
 }
