@@ -16,7 +16,7 @@
     opacity: 0.995;
     /* background: linear-gradient(rgba(0, 0, 0, 0.505), 
     rgba(0, 0, 0, 0.505)), url(../img/home.jpg) center center no-repeat;  */
-    background: url(../img/home.jpg) top center no-repeat;
+    background: url(../img/home.jpg) center center no-repeat;
     /* background-color: #252b38; */
     background-color: #f1e2d6;
     background-size: cover;
