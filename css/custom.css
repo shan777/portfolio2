@@ -3,6 +3,9 @@
     color: #0ab1f8;
 }
 
+.fa:hover, .fab:hover {
+    color: rgb(111, 219, 255) !important;
+}
 .rightsRes {
     color: #55adcb !important;
     background: -webkit-linear-gradient(#55adcb, #4dafd0);
