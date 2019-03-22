@@ -1,6 +1,8 @@
-/* your styles go here */
 .xcolor {
-    color: #0ab1f8;
+    color: black;
+}
+.xcolor:hover {
+    color: #f7484e !important;
 }
 
 .fa:hover, .fab:hover {
@@ -19,7 +21,7 @@
     z-index: -1;
     opacity: 0.995;
     background: url(../img/home.jpg) center center no-repeat;
-    background-color: rgb(225, 204, 19);
+    background-color: black;
     background-size: cover;
     position: absolute;
     top: 0;
