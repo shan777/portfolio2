@@ -1,6 +1,8 @@
-/* your styles go here */
 .xcolor {
-    color: #0ab1f8;
+    color: black;
+}
+.xcolor:hover {
+    color: #f7484e !important;
 }
 
 .fa:hover, .fab:hover {
