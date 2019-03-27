@@ -31,8 +31,7 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* opacity: 0.8; */
-
+    /* opacity: 0.85; */
 }
 
 .imageContainer {
@@ -211,7 +210,7 @@
         position: absolute;
         top: 25%;
         text-align: center;   
-        left: 20%;
+        /* left: 20%; */
         right: 0;
     }
 
@@ -225,8 +224,9 @@
     }
         
     .subsubtext {
-        font-size: 1.0rem;
-        padding-top: 32%;
+        font-size: 1.1rem;
+        padding-top: 37%;
+        padding-left: 32%;
     }
     .aboutPic {
         width: 30%;
@@ -283,7 +283,7 @@
     .subtext {
         font-size: 1.7rem;
         position: absolute;
-        top: 50%;
+        top: 47%;
         text-align: center;   
         left: 0;
         right: 0;
@@ -291,7 +291,8 @@
 
     .subsubtext {
         padding-top: 40%;
-        padding-left: 10%;
+        padding-left: 9%;
+        font-size: 1.05rem;
     }
 
     .aboutPic {
@@ -336,6 +337,15 @@
 
 
 @media (max-width: 480px) {
+    
+.intro-section-bg {
+    background: url(../img/home-mobile.jpg) center center no-repeat;
+    /* background-size: cover; */
+
+    background-size: 150% auto;
+    /* background-color: black; */
+}
+
     .name {
         font-size: 3.6em;
         position: absolute;
@@ -348,15 +358,16 @@
     .subtext{
         font-size: 1.7rem;
         position: absolute;
-        top: 50%;
+        top: 49%;
         text-align: center;   
         left: 0;
         right: 0;
     }
 
     .subsubtext {
-        padding-top: 62%;
-        padding-left: 28%;
+        padding-top: 68%;
+        padding-left: 27%;
+        font-size: 1.2rem;
     }
 
     .aboutPic {

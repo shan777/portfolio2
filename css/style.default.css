@@ -229,7 +229,7 @@ nav.navbar a.nav-link:hover {
 
 @media (max-width: 480px) {
   .intro-section {
-    min-height: 75vh;
+    min-height: 100vh;
   }
 }
 
