@@ -143,9 +143,27 @@
     padding-top: 10%;
 }
 
+.cs-icon .btn {
+    background-color: #F7484F;
+    color: white;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    padding: 1px;
+}
 
+.cs-icon .fa {
+    transform: rotate(-45deg);
+}
 
+.contact-section {
+    text-align: center;
+    font-size: 0.85rem;
+}
 
+a[href^="mailto"]:hover {
+    color: blue;
+}
 @media (max-width: 1199.99px) {
     .name {
         font-size: 6rem;
