@@ -6,7 +6,7 @@
 }
 
 .fa:hover, .fab:hover {
-    color: rgb(111, 219, 255) !important;
+    color: inherit !important;
 }
 .rightsRes {
     color: #55adcb !important;
