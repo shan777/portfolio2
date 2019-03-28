@@ -319,15 +319,15 @@
     }
 
     .services-section p.description1 {
-        padding-left: 20%;
+        padding-left: 28%;
     }
     
     .services-section p.description2 {
-        padding-left: 21%;
+        padding-left: 30%;
     }
     
     .services-section p.description3 {
-        padding-left: 20%;
+        padding-left: 32%;
     }
 
     .imageContainer {
@@ -338,13 +338,14 @@
 
 @media (max-width: 480px) {
     
-.intro-section-bg {
-    background: url(../img/home-mobile.jpg) center center no-repeat;
-    /* background-size: cover; */
+    .intro-section-bg {
+        background: url(../img/home-mobile.jpg) center center no-repeat;
+        background-size: 170% auto;
+    }
 
-    background-size: 150% auto;
-    /* background-color: black; */
-}
+    nav.navbar {
+        border-bottom: none;
+    }
 
     .name {
         font-size: 3.6em;
@@ -394,15 +395,15 @@
     }
 
     .services-section p.description1 {
-        padding-left: 20%;
+        padding-left: 7%;
     }
     
     .services-section p.description2 {
-        padding-left: 21%;
+        padding-left: 13%;
     }
     
     .services-section p.description3 {
-        padding-left: 20%;
+        padding-left: 14%;
     }
 
     .imageContainer {
