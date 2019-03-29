@@ -9,10 +9,9 @@
     color: inherit !important;
 }
 .rightsRes {
-    color: #55adcb !important;
-    background: -webkit-linear-gradient(#55adcb, #4dafd0);
+    color: rgb(245, 212, 130) !important;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #43bae2;
     text-align: center;
     padding-bottom: 2%;
 }
@@ -117,18 +116,6 @@
     margin-top: 3%;
 }
 
-.services-section p.description1 {
-    padding-left: 10%;
-}
-
-.services-section p.description2 {
-    padding-left: 14%;
-}
-
-.services-section p.description3 {
-    padding-left: 14%;
-}
-
 .oneSquare {
     background-color: rgba(255, 255, 255, 0.823); 
     width: 90%;
@@ -164,6 +151,8 @@
 a[href^="mailto"]:hover {
     color: blue;
 }
+
+
 @media (max-width: 1199.99px) {
     .name {
         font-size: 6rem;
@@ -203,18 +192,6 @@ a[href^="mailto"]:hover {
         height: 99%;
         margin: 0.5%;
         padding-top: 3%; 
-    }
-
-    .services-section p.description1 {
-        padding-left: 0%;
-    }
-    
-    .services-section p.description2 {
-        padding-left: 5%;
-    }
-    
-    .services-section p.description3 {
-        padding-left: 8%;
     }
 
     .imageContainer {
@@ -270,18 +247,6 @@ a[href^="mailto"]:hover {
         border-bottom: 0.5px solid silver;
     }
 
-    .services-section p.description1 {
-        padding-left: 30%;
-    }
-    
-    .services-section p.description2 {
-        padding-left: 32.8%;
-    }
-    
-    .services-section p.description3 {
-        padding-left: 33%;
-    }
-    
     .imageContainer {
         width: 60%;
     }
@@ -336,18 +301,6 @@ a[href^="mailto"]:hover {
         border-bottom: 0.5px solid silver;
     }
 
-    .services-section p.description1 {
-        padding-left: 28%;
-    }
-    
-    .services-section p.description2 {
-        padding-left: 30%;
-    }
-    
-    .services-section p.description3 {
-        padding-left: 32%;
-    }
-
     .imageContainer {
         width: 60%;
     }
@@ -359,10 +312,6 @@ a[href^="mailto"]:hover {
     .intro-section-bg {
         background: url(../img/home-mobile.jpg) center center no-repeat;
         background-size: 170% auto;
-    }
-
-    nav.navbar {
-        border-bottom: none;
     }
 
     .name {
@@ -412,23 +361,7 @@ a[href^="mailto"]:hover {
         border-bottom: 0.5px solid silver;
     }
 
-    .services-section p.description1 {
-        padding-left: 7%;
-    }
-    
-    .services-section p.description2 {
-        padding-left: 13%;
-    }
-    
-    .services-section p.description3 {
-        padding-left: 14%;
-    }
-
     .imageContainer {
         width: 60%;
     }
-
-    /* .fa {
-        color: white;
-    } */
 }
