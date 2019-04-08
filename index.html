@@ -55,7 +55,7 @@
       </nav>
     </header>
     <!-- Intro Image-->
-    <section id="intro" class="intro-section pb-2">
+    <section id="intro" name="intro" class="intro-section pb-2">
       <div class="intro-section-bg"></div>
       <!-- <div class="container text-center introText"> -->
         <!-- <div class="name text-shadow">Sarah &nbsp;Han</div>  -->
@@ -76,7 +76,7 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="bg-gradient services-section">
+    <section id="about" name="about" class="bg-gradient services-section">
       <div class="container">
               <div class="mb-5 text-center">
                 <h2 data-animate="fadeInUp" class="title">About</h2>
@@ -145,8 +145,8 @@
           </div>
 
           <div id="detail">
-            <div class="row">
-              <div class="col-lg-10 mx-auto"><span id="portfolioDetails" class="close xcolor">×</span>
+            <div  id="portfolioDetails" name="portfolioDetails" class="row">
+              <div class="col-lg-10 mx-auto"><span class="close xcolor">×</span>
                 <div id="detail-slider" class="owl-carousel owl-theme"></div>
                 <div class="text-center">
                   <h1 id="detail-title" class="projTitle"></h1>
@@ -160,13 +160,13 @@
             <div class="row">
                   <div data-category="webdesign" class="reference-item col-lg-4 col-md-12 col-sm-12">
                     <div class="reference"><a href="#portfolioDetails" title="click to view the details"><img src="img/portfolio-1.jpg" alt="Squirrel Receipts" class="img-fluid projectImg">
-                        <div class="overlay">
-                          <div class="inner">
-                            <h3 class="h4 reference-title">Squirrel Receipts</h3>
-                            <p>Receipt respository app</p>
-                          </div>
-                        </div></a>
-                      <div data-images="img/main-slider1.jpg" class="sr-only reference-description">
+                      <div class="overlay">
+                        <div class="inner">
+                          <h3 class="h4 reference-title">Squirrel Receipts</h3>
+                          <p>Receipt respository app</p>
+                        </div>
+                      </div></a>
+                      <div data-target="#portfolioDetails" data-images="img/main-slider1.jpg" class="sr-only reference-description">
                         <p><i><b>Squirrel Receipts</b></i>&nbsp; is a simple mobile-first CMA (Content Management App) that is designed to store information of receipts to help save space in your wallet. You can Create, Read, Update, and Delete the contents with our easy to use interface.
                         </p>
                         <p>The ultimate goal is to completely eliminate paper receipts to help reduce paper waste for better environment. Currently, any receipts from the Square sellers sent to <i style="font-size: 1.07rem">your_username</i>@sqr.email will automatically display on your app.
@@ -232,7 +232,7 @@
     </section>
 
     <!-- Skills-->
-    <section id="skills" class="customers-section bg-gray">
+    <section id="skills" name="skills" class="customers-section bg-gray">
       <div class="container">
           <header class="text-center">
             <h2 data-animate="fadeInDown" class="title">Skills</h2>
@@ -307,7 +307,7 @@
     </section>
 
     <!-- Contact-->
-    <section id="contact" class="contact-section contact">
+    <section id="contact" name="contact" class="contact-section contact">
       <div class="container">
         <header class="text-center">
           <h2 class="title">Contact</h2>
