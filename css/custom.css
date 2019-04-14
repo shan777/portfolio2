@@ -9,7 +9,6 @@
     color: inherit !important;
 }
 .rightsRes {
-    color: rgb(245, 212, 130) !important;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #43bae2;
     text-align: center;
@@ -48,19 +47,12 @@
     font-size: 6.2rem; 
     color: white;
     font-weight: bolder;
-    /* padding-bottom: 5%; */
-    /* font-family: 'Lobster Two', cursive; */
-    /* background-color: rgb(204, 231, 241);
-    opacity: 0.9; */
 }
 
 .subtext {
     /* text-shadow: 2px 0 grey, 0 1px slategray, 3px 0 grey, 0 1px slategray; */
     text-shadow: 2px 0 white, 0 1px #d6b974, 3px 0 white, 0 1px #d5bb7d;
-
     color: rgb(42, 48, 52);
-    /* color: #f7484e; */
-    /* font-family: 'Roboto Slab', serif; */
     font-size: 2.3rem;
     position: absolute !important;
     top: 55%;
@@ -80,7 +72,6 @@
     text-shadow: 3px 2px 7px black, 0 1px black, 0 2px black;    
     padding-top: 26%;
     padding-left: 35%;
-    /* font-family: 'PT serif'; */
 }
 
 .footer-social {
