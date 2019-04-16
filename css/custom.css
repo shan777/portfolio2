@@ -8,6 +8,7 @@
 .fa:hover, .fab:hover {
     color: inherit !important;
 }
+
 .rightsRes {
     -webkit-background-clip: text;
     -webkit-text-fill-color: #43bae2;
@@ -29,12 +30,10 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    /* opacity: 0.85; */
 }
 
 .imageContainer {
     position: relative;
-    /* text-align: center; */
     width: 30%;
 }
 
@@ -50,7 +49,6 @@
 }
 
 .subtext {
-    /* text-shadow: 2px 0 grey, 0 1px slategray, 3px 0 grey, 0 1px slategray; */
     text-shadow: 2px 0 white, 0 1px #d6b974, 3px 0 white, 0 1px #d5bb7d;
     color: rgb(42, 48, 52);
     font-size: 2.3rem;
@@ -143,6 +141,51 @@ a[href^="mailto"]:hover {
     color: blue;
 }
 
+@media (min-width: 1200px) {
+    .name {
+        font-size: 6rem;
+        position: absolute;
+        top: 25%;
+        text-align: center;   
+        left: 10%;
+        right: 0;
+    }
+
+    .subtext {
+        font-size: 2.3rem;
+        position: absolute;
+        top: 55%;
+        text-align: center;   
+        left: 13%;
+        right: 0;
+    }
+
+    .subsubtext {
+        font-size: 1.3rem;
+        padding-top: 25%;
+    }
+
+    .projectImg {
+        width: 100%;
+    }
+
+    .aboutPic {
+        width: 50%;
+    }
+
+    .oneSquare {
+        flex: 0 0 32% !important;
+        max-width: 32% !important;
+        margin: auto;   
+        height: 99%;
+        margin: 0.5%;
+        padding-top: 3%; 
+    }
+
+    .imageContainer {
+        width: 36%;
+    }
+}
 
 @media (max-width: 1199.99px) {
     .name {
