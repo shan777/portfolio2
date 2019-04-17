@@ -9,9 +9,8 @@
     color: inherit !important;
 }
 
-.phone:hover {
-    color: blue !important;
-    text-decoration: none;
+a[href^="tel:"] {
+    color: inherit;
 }
 
 .rightsRes {
