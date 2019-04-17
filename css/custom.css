@@ -9,6 +9,11 @@
     color: inherit !important;
 }
 
+.phone:hover {
+    color: blue !important;
+    text-decoration: none;
+}
+
 .rightsRes {
     -webkit-background-clip: text;
     -webkit-text-fill-color: #43bae2;
