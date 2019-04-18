@@ -77,15 +77,20 @@ a[href^="tel:"] {
 }
 
 .footer-social {
-    display: block;
+    /* display: inline-block; */
     width: 100%;
     left: 0;
     bottom: 7.2rem;
     font-size: 2rem;
-    margin: 0;
+    margin: 20px 0;
     padding: 0;
     text-align: center;
     list-style: outside none none;
+}
+
+.footer-list {
+    display: inline-block;
+    margin: 0 15px;
 }
 
 .aboutPic {
@@ -189,6 +194,10 @@ a[href^="mailto"]:hover {
     .imageContainer {
         width: 36%;
     }
+
+    .footer-list {
+        margin: 0 30px;
+    }
 }
 
 @media (max-width: 1199.99px) {
@@ -234,6 +243,10 @@ a[href^="mailto"]:hover {
 
     .imageContainer {
         width: 36%;
+    }
+
+    .footer-list {
+        margin: 0 25px;
     }
 }
 
