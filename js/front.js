@@ -108,6 +108,8 @@ $(function () {
 
         openReference(sliderContent);
 
+        var takeMeToProjDetailTop = $("#detail").offset().top;
+        window.scrollTo(0, takeMeToProjDetailTop-66); //66 is height of the navbar
     });
 
     function openReference(sliderContent) {
@@ -126,23 +128,8 @@ $(function () {
                     dots: true,
                     items: 1
                 });
-
             }
-        }
-
-        var elem = document.getElementById("detail").getBoundingClientRect();
-        // var nav = document.querySelector(".navbar").getBoundingClientRect();
-
-        console.log('elem left: ', elem.left);
-        console.log('elem top: ', elem.top);
-        console.log(elem);
-        var elem2 = document.querySelector(".close").getBoundingClientRect();
-        var elem3 = document.getElementById("detail-content").getBoundingClientRect();
-
-console.log('close:', elem2);
-console.log('detail-content:', elem3);
-
-        window.scrollTo(elem.x, elem.y);
+        }       
     }
 
 
