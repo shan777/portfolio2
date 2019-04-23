@@ -88,7 +88,6 @@ $(function () {
      * reference functionality
      *  =======================================*/
     $('.reference a').on('click', function (e) {
-
         e.preventDefault();
 
         var title = $(this).find('.reference-title').text(),
@@ -112,9 +111,9 @@ $(function () {
     });
 
     function openReference(sliderContent) {
-        $('#detail').slideDown();
-        $('#references-masonry').slideUp();
-
+console.log(sliderContent);
+        $('#detail').slideDown(); //shows
+        $('#references-masonry').slideUp(); //hides
 
         if (sliderContent !== '') {
 
@@ -132,6 +131,16 @@ $(function () {
 
             }
         }
+
+        var elem = document.getElementById("detail").getBoundingClientRect();
+        // var nav = document.querySelector(".navbar").getBoundingClientRect();
+
+        console.log('elem left: ', elem.left);
+        console.log('elem top: ', elem.top);
+        console.log(elem);
+        // var elem = document.querySelector(".close").getBoundingClientRect();
+
+        window.scrollTo(elem.x, elem.y);
     }
 
 
