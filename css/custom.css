@@ -1,5 +1,5 @@
 .xcolor {
-    color: black;
+    color: orangered;
 }
 .xcolor:hover {
     color: #f7484e !important;
@@ -11,6 +11,14 @@
 
 a[href^="tel:"] {
     color: inherit;
+}
+
+#detail-slider {
+    margin-top: 40px !important;
+}
+
+#detail-content {
+    margin-top: 30px;
 }
 
 .rightsRes {
@@ -109,7 +117,7 @@ a[href^="tel:"] {
 
 .projTitle {
     font-size: 1.7rem;
-    border-bottom: 0.5px solid silver;
+    border-bottom: 0.5px dotted black;
     text-transform: uppercase;
     margin-top: 3%;
 }
