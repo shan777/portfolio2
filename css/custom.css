@@ -116,10 +116,11 @@ a[href^="tel:"] {
 }
 
 .projTitle {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     border-bottom: 0.5px dotted black;
     text-transform: uppercase;
     margin-top: 3%;
+    padding-right: 10%;
 }
 
 .oneSquare {
