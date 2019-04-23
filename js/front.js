@@ -108,15 +108,15 @@ $(function () {
 
         openReference(sliderContent);
 
+        var takeMeToProjDetailTop = $("#detail").offset().top;
+        window.scrollTo(0, takeMeToProjDetailTop-66); //66 is height of the navbar
     });
 
     function openReference(sliderContent) {
-console.log(sliderContent);
         $('#detail').slideDown(); //shows
         $('#references-masonry').slideUp(); //hides
 
         if (sliderContent !== '') {
-
             var slider = $('#detail-slider');
 
             if (slider.hasClass('owl-loaded')) {
@@ -128,19 +128,8 @@ console.log(sliderContent);
                     dots: true,
                     items: 1
                 });
-
             }
-        }
-
-        var elem = document.getElementById("detail").getBoundingClientRect();
-        // var nav = document.querySelector(".navbar").getBoundingClientRect();
-
-        console.log('elem left: ', elem.left);
-        console.log('elem top: ', elem.top);
-        console.log(elem);
-        // var elem = document.querySelector(".close").getBoundingClientRect();
-
-        window.scrollTo(elem.x, elem.y);
+        }       
     }
 
 
