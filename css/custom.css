@@ -21,6 +21,10 @@ a[href^="tel:"] {
     margin-top: 30px;
 }
 
+.customer {
+    margin-bottom: 10px;
+}
+
 .rightsRes {
     -webkit-background-clip: text;
     -webkit-text-fill-color: #43bae2;
