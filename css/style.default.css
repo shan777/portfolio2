@@ -168,7 +168,7 @@ nav.navbar a.nav-link {
 
 nav.navbar a.nav-link.active {
   /* color: #333; */
-  border-top-color: #f7484e;
+  border-top-color: #ff4f55;
   font-weight: 1000;
   font-size: 1.1rem;
 }
@@ -176,7 +176,7 @@ nav.navbar a.nav-link.active {
 
 nav.navbar a.nav-link:hover {
   font-weight: 500;
-  border-top-color: #f5a7a7;
+  border-top-color: #ffb9b3;
 }
 
 
@@ -629,7 +629,7 @@ nav.navbar a.nav-link:hover {
 */
 footer.main-footer {
   padding: 5px 0;
-  background: rgb(17, 16, 16);
+  background: rgb(20, 20, 20);
 }
 
 footer.main-footer p.social a {
