@@ -27,9 +27,10 @@ a[href^="tel:"] {
 
 .rightsRes {
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #43bae2;
+    -webkit-text-fill-color: white;
     text-align: center;
     padding-bottom: 2%;
+    font-weight: lighter;
 }
 
 .intro-section-bg {
