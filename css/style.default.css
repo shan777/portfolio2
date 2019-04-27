@@ -629,7 +629,7 @@ nav.navbar a.nav-link:hover {
 */
 footer.main-footer {
   padding: 5px 0;
-  background: #1c263b;
+  background: rgb(17, 16, 16);
 }
 
 footer.main-footer p.social a {
