@@ -121,7 +121,7 @@ section {
 nav.navbar {
   padding-top: 0;
   padding-bottom: 0;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 0.5px solid #f7cfd1;
   border-top: 1px solid #eee;
   background-color: white;
   line-height: 0;
@@ -168,7 +168,7 @@ nav.navbar a.nav-link {
 
 nav.navbar a.nav-link.active {
   /* color: #333; */
-  border-top-color: #ff4f55;
+  border-top-color: #fc6166;
   font-weight: 1000;
   font-size: 1.1rem;
 }
@@ -629,7 +629,8 @@ nav.navbar a.nav-link:hover {
 */
 footer.main-footer {
   padding: 5px 0;
-  background: rgb(20, 20, 20);
+  /* background: rgb(10, 10, 10); */
+  background-image: linear-gradient(rgb(39, 38, 38), black);
 }
 
 footer.main-footer p.social a {
